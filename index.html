@@ -91,69 +91,49 @@
       border-radius: 50%;
     }
 
-.hero-bg-text {
-  position: absolute;
-  bottom: -40px;
-  right: -20px;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 18rem;
-  color: rgba(255, 255, 255, 0.03);
-  letter-spacing: 10px;
-  white-space: nowrap;
-  pointer-events: none;
-  z-index: 0;
-}
-
-
-
 .hero-tag, .hero h1, .hero-sub, .hero-btns {
-  position: relative;
-  z-index: 1;
-}
-    
+      position: relative;
+      z-index: 2;
+    }
 
     .hero-bg-text {
-  position: absolute;
-  bottom: -40px;
-  right: -20px;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 18rem;
-  color: rgba(255, 255, 255, 0.03);
-  /* Changed from 10px to 0 to make hovering easier/more precise */
-  letter-spacing: 0px; 
-  white-space: nowrap;
-  z-index: 0;
-  cursor: default;
-  /* Crucial: allows the mouse to interact with the text */
-  pointer-events: auto; 
-  user-select: none;
-}
-
-.hero-bg-text span {
-  transition: all 0.2s ease;
-  display: inline-block;
-  padding: 0 5px;
-}
-
-/* The "Lightbulb" effect on hover */
-.hero-bg-text span:hover {
-  transform: translateY(-10px) scale(1.1);
-  opacity: 1;
-}
-
-/* Individual Colors for each letter */
-.hero-bg-text span:nth-child(1):hover { color: #00f2ff; text-shadow: 0 0 30px #00f2ff, 0 0 60px #00f2ff; } /* Cyan */
-.hero-bg-text span:nth-child(2):hover { color: #7000ff; text-shadow: 0 0 30px #7000ff, 0 0 60px #7000ff; } /* Purple */
-.hero-bg-text span:nth-child(3):hover { color: #00ff95; text-shadow: 0 0 30px #00ff95, 0 0 60px #00ff95; } /* Mint */
-.hero-bg-text span:nth-child(4):hover { color: #ff0055; text-shadow: 0 0 30px #ff0055, 0 0 60px #ff0055; } /* Pink */
-.hero-bg-text span:nth-child(5):hover { color: #50b3ff; text-shadow: 0 0 30px #50b3ff, 0 0 60px #50b3ff; } /* Sky Blue */
-.hero-bg-text span:nth-child(6):hover { color: #ffcc00; text-shadow: 0 0 30px #ffcc00, 0 0 60px #ffcc00; } /* Amber */
-.hero-bg-text span:nth-child(7):hover { color: #0066ff; text-shadow: 0 0 30px #0066ff, 0 0 60px #0066ff; } /* Royal Blue */
-.hero-bg-text span:nth-child(8):hover { color: #33ff00; text-shadow: 0 0 30px #33ff00, 0 0 60px #33ff00; } /* Neon Green */
-.hero-bg-text span:nth-child(9):hover { color: #ff5e00; text-shadow: 0 0 30px #ff5e00, 0 0 60px #ff5e00; } /* Orange */
-.hero-bg-text span:nth-child(10):hover { color: #a200ff; text-shadow: 0 0 30px #a200ff, 0 0 60px #a200ff; } /* Violet */
-.hero-bg-text span:nth-child(11):hover { color: #00eaff; text-shadow: 0 0 30px #00eaff, 0 0 60px #00eaff; } /* Electric Blue */
+      position: absolute;
+      bottom: -40px;
+      right: -20px;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 18rem;
+      color: rgba(255, 255, 255, 0.03);
+      letter-spacing: 0px; 
+      white-space: nowrap;
+      z-index: 0;
+      cursor: default;
+      pointer-events: auto; 
+      user-select: none;
     }
+
+    .hero-bg-text span {
+      transition: all 0.2s ease;
+      display: inline-block;
+      padding: 0 5px;
+    }
+
+    .hero-bg-text span:hover {
+      transform: translateY(-10px) scale(1.1);
+      opacity: 1;
+    }
+
+    .hero-bg-text span:nth-child(1):hover { color: #00f2ff; text-shadow: 0 0 30px #00f2ff; }
+    .hero-bg-text span:nth-child(2):hover { color: #7000ff; text-shadow: 0 0 30px #7000ff; }
+    .hero-bg-text span:nth-child(3):hover { color: #00ff95; text-shadow: 0 0 30px #00ff95; }
+    .hero-bg-text span:nth-child(4):hover { color: #ff0055; text-shadow: 0 0 30px #ff0055; }
+    .hero-bg-text span:nth-child(5):hover { color: #50b3ff; text-shadow: 0 0 30px #50b3ff; }
+    .hero-bg-text span:nth-child(6):hover { color: #ffcc00; text-shadow: 0 0 30px #ffcc00; }
+    .hero-bg-text span:nth-child(7):hover { color: #0066ff; text-shadow: 0 0 30px #0066ff; }
+    .hero-bg-text span:nth-child(8):hover { color: #33ff00; text-shadow: 0 0 30px #33ff00; }
+    .hero-bg-text span:nth-child(9):hover { color: #ff5e00; text-shadow: 0 0 30px #ff5e00; }
+    .hero-bg-text span:nth-child(10):hover { color: #a200ff; text-shadow: 0 0 30px #a200ff; }
+    .hero-bg-text span:nth-child(11):hover { color: #00eaff; text-shadow: 0 0 30px #00eaff; }
+    
 
     .hero h1 {
       font-family: 'Bebas Neue', sans-serif;
